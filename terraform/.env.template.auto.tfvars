@@ -15,7 +15,6 @@ job_schedules = {
     }
 }
 
-ecs_cluster_arn = "ecs_cluster_arn"
 ecs_vpc_id = "ecs_vpc_id"
 ecs_subnets_id = "ecs_subnets_id"
 ecs_security_groups = "ecs_security_groups"

@@ -37,11 +37,6 @@ variable "job_schedules" {
   description = "Job schedule configuration per job type (e.g. primes algorithm, sort algorithm, etc)"
 }
 
-variable "ecs_cluster_arn" {
-    type = string
-    description = "ECS Cluster ARN"
-}
-
 variable "ecs_vpc_id" {
     type = string
     description = "AWS VPC where all resources are deployed"
